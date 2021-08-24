@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_employee",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deactivate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "distribute",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "distributed_shares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/kamilwojnowski/Fintech/Homework/HR-Solidity-Contracts/DeferredEquityPlan.sol": "DeferredEquityPlan"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/kamilwojnowski/Fintech/Homework/HR-Solidity-Contracts/DeferredEquityPlan.sol": {
+			"keccak256": "0xb4cbca232c8026b52bd47a48977e7b2f476c3e9dc0007b9dd29c7796fb7b097f",
+			"urls": [
+				"bzz-raw://0f7c1fef6133dc2b4693cc5e29031fbf0b9c531169d547a8f1dd47463d3139d3",
+				"dweb:/ipfs/QmSVec72Nxz33LvawmaJ4c9rge1Ni8RfR9NkuYd1P6Nkr4"
+			]
+		}
+	},
+	"version": 1
+}
